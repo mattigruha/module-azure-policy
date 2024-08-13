@@ -1,8 +1,7 @@
 # Description
 Terraform Module for deploying built-in Azure policies. With this module you can assign policies on subscription-level and if needed (optional) create remediations tasks. These remediation tasks will be created for every single subscription policy assignment. As a prerequisite you will need a resource group and an user assigned identity outside of this module, with the permissions needed for the remediation (in this case contributor permissions).
 
-When using this module, you'll need to have a good look at the needed parameters (json) input that is required for the policy to work properly. This can be done easily by deploying a policy manually in the Azure portal and then viewing the definition in json, when you're doing this it's also possible to have
-a look the necessary parameters.
+When using this module, you'll need to have a good look at the needed parameters (json) input that is required for the policy to work properly. This can be done easily by deploying a policy manually in the Azure portal and then viewing the definition in json, when you're doing this it's also possible to have a look at the necessary parameters.
 
 ## Requirements
 
