@@ -92,12 +92,11 @@ module "tag_inheritance_policy" {
     delete = "30m"
   }
 }
-```hcl
 
 ##############################################################################################################################################
 # Example usage of the module for configuring automatic updates assessment for different machine types (Linux and Windows VM's & Arc machines)
 ##############################################################################################################################################
-```hcl
+
 locals {
   customer_tla = "dsc"
 
