@@ -97,7 +97,7 @@ module "tag_inheritance_policy" {
 ##############################################################################################################################################
 
 locals {
-  customer_tla = "dsc"
+  customer_tla = "sbx"
 
   missing_updates_policies = {
     updates_arc_windows = {
